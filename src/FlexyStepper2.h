@@ -31,8 +31,8 @@
 // SOFTWARE.
 
 
-#ifndef FlexyStepper_h
-#define FlexyStepper_h
+#ifndef FlexyStepper2_h
+#define FlexyStepper2_h
 
 #include <Arduino.h>
 #include <stdlib.h>
@@ -41,13 +41,13 @@
 //
 // the FlexyStepper class
 //
-class FlexyStepper
+class FlexyStepper2
 {
   public:
     //
     // public functions
     //
-    FlexyStepper();
+    FlexyStepper2();
     void connectToPins(byte stepPinNumber, byte directionPinNumber);
 
     void setStepsPerMillimeter(float motorStepPerMillimeter);
